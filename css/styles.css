@@ -1,3 +1,9 @@
+:root {
+  --primary-font:"Roboto", sans-serif;
+  --secondary-font:"Raleway", sans-serif;
+  --accent-color:#404bbf;
+  }
+
 .list {
   list-style: none;
 }
@@ -6,11 +12,11 @@
 }
   
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
 }
 
 .web {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.5;
@@ -19,7 +25,7 @@ body {
 }
 
 .page-studio {
-  font-family: "Raleway", sans-serif;
+  font-family:  var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.5;
@@ -44,7 +50,7 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #404bbf;
+  color:var(--accent-color);
 }
 
 .menu-list .link {
@@ -57,7 +63,7 @@ body {
 
 .menu-list .link:hover,
 .menu-list .link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .list-title {
@@ -114,5 +120,5 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-color);
 }
