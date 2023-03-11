@@ -13,6 +13,7 @@
 
 body {
   font-family: var(--primary-font);
+   color: #434455;
 }
 
 .logo-link {
@@ -79,9 +80,11 @@ body {
 .list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2e2f42 color;
 }
 
 .list-text {
@@ -122,6 +125,7 @@ body {
 }
 
 .modal-btn {
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
