@@ -45,7 +45,7 @@ body {
 }
 
 .studio {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.5;
@@ -80,9 +80,9 @@ body {
 .list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.07;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #2e2f42 color;
+  color: #2e2f42;
 }
 
 .list-text {
@@ -108,15 +108,15 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  color: #2e2f42;
-}
+  }
 
 .section-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.12;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -124,7 +124,8 @@ body {
 .name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -144,3 +145,19 @@ body {
 .modal-btn:focus {
   background-color: var(--accent-color);
 }
+.page-down {
+  background-color: #2e2f42;
+}
+
+.logo-down {
+font-family: var(--secondary-font);
+font-weight: 800;
+font-size: 18px;
+line-height: 1,17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+
+
