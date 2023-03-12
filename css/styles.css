@@ -145,7 +145,7 @@ body {
 .modal-btn:hover,
 .modal-btn:focus {
 color:#ffffff;
-background-color: var(--accent-color);
+background-color:  var(--accent-color);
 }
 
 .page-down {
