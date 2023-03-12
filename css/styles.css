@@ -148,6 +148,22 @@ color: #FFFFFF;
 background-color: var(--accent-color);
 }
 
+.modal-btn-portfolio {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em; 
+  cursor: pointer;
+  color: #4D5AE5;
+  background-color: #F4F4FD;
+}
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+
 .page-down {
   background-color: #2e2f42;
 }
