@@ -138,12 +138,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em; 
   cursor: pointer;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-  color: #ffffff;
-  background-color: #434455
-  color;
+  color: #4D5AE5;
+  background-color: #F4F4FD;
 }
 
 .modal-btn:hover,
@@ -151,6 +147,7 @@ body {
 color:#ffffff;
 background-color: var(--accent-color);
 }
+
 .page-down {
   background-color: #2e2f42;
 }
