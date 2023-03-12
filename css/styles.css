@@ -91,7 +91,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  color: #F4F4FD;
+  color: #434455;
 }
 
 .menu-contacts {
@@ -142,7 +142,8 @@ body {
   align-items: center;
   padding: 12px 24px;
   color: #4d5ae5;
-  background-color: #F4F4FD;;
+  background-color: #434455
+  color;
 }
 
 .modal-btn:hover,
