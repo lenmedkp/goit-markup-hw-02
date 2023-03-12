@@ -144,7 +144,7 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-color:#ffffff;
+color: #FFFFFF;
 background-color:  var(--accent-color);
 }
 
