@@ -138,14 +138,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em; 
   cursor: pointer;
-  color:#FFFFFF;
-  background-color:   #4D5AE5;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
 color: #FFFFFF;
-background-color:  var(--accent-color);
+background-color: var(--accent-color);
 }
 
 .page-down {
