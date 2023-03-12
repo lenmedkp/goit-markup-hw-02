@@ -158,6 +158,7 @@ background-color: var(--accent-color);
   color: #4D5AE5;
   background-color: #F4F4FD;
 }
+
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
 color: #FFFFFF;
