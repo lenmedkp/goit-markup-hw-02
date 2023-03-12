@@ -90,7 +90,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  width: 264px;
+  color: #F4F4FD;
 }
 
 .menu-contacts {
@@ -137,13 +138,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em; 
   cursor: pointer;
-  background-color: #4d5ae5;
-  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #4d5ae5;
+  background-color: #F4F4FD;;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: var(--accent-color);
+color:#ffffff;
+background-color: var(--accent-color);
 }
 .page-down {
   background-color: #2e2f42;
